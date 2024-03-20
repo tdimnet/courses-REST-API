@@ -13,6 +13,7 @@ app.use(bodyParser.json());
 
 app.use("/books", require("./routes/books"));
 app.use("/courses", require("./routes/courses"));
+app.use("/users", require("./routes/users"));
 
 const options = {
   definition: {

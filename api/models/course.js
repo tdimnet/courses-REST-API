@@ -74,4 +74,6 @@ CourseSchema.virtual("overallRating").get(function () {
 });
 
 const Course = mongoose.model("Course", CourseSchema);
+
 module.exports = Course;
+

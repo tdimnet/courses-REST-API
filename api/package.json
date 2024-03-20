@@ -32,6 +32,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.21",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   }
 }

@@ -39,4 +39,6 @@ UserSchema.path("email").validate(function (email) {
 }, "Invalid email address");
 
 const User = mongoose.model("User", UserSchema);
+
 module.exports = User;
+
